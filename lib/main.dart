@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
 
    return new SplashScreen(
-     seconds: 10,
+     seconds: 5,
      navigateAfterSeconds: AfterSplash(),
      title: new Text('Nous sommes heureux de vous revoir parmis nous',
        style: new TextStyle(
